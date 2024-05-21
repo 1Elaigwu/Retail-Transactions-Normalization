@@ -36,7 +36,7 @@ CREATE TABLE Products (
 ```sql
 CREATE TABLE Transactions (
     TransactionID SERIAL PRIMARY KEY,
-    CustomerID VARCHAR(10),
+    CustomerID INT,
     ProductID VARCHAR(10),
     Quantity INT,
     DiscountApplied DECIMAL(5, 2),
