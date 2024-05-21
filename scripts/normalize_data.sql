@@ -1,0 +1,6 @@
+-- Normalize the data to ensure efficient storage and minimize redundancy
+-- Step 1: Create the normalized tables
+-- Step 2: Populate the Customers table with unique customer data
+-- Step 3: Populate the Products table with unique product data
+-- Step 4: Populate the Transactions table with all transaction data
+-- Step 5: Verify the data integrity and foreign key constraints
