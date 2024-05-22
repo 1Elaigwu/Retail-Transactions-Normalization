@@ -64,11 +64,15 @@ INSERT INTO Customers (CustomerID, StoreLocation, PaymentMethod)
 SELECT DISTINCT CustomerID, StoreLocation, PaymentMethod FROM Retail_Transactions;
 ```
 
+- Inserted unique product data into the `Products` table.
+
 ```sql
 INSERT INTO Products (ProductID, ProductCategory, Price)
 SELECT DISTINCT ProductID, ProductCategory, Price FROM Retail_Transactions;
 
 ```
+
+- Inserted transaction data into the `Transactions` table.
 
 ```sql
 INSERT INTO Transactions (CustomerID, ProductID, Quantity, DiscountApplied, TotalAmount, TransactionDate)
